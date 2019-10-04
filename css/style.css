@@ -1,4 +1,37 @@
-.red {
-	height: 600px;
-	background-color: red;
+h1 
+{ 
+text-shadow: 2px 2px 0 black;
+}
+
+.part1 {
+	color: white;
+	height: 100%;
+	background-color: #0F2D66;
+}
+
+.part2 {
+	color: white;
+	height: 100%;
+	background-color: #183F88;
+}
+
+.part3 {
+	color: white;
+	height: 100%;
+	background-color: #164EB8;
+}
+.part4 {
+	color: white;
+	height: 100%;
+	background-color: #2662D3;
+}
+.part5 {
+	color: white;
+	height: 100%;
+	background-color: #3C7AED;
+}
+.part6 {
+	color: white;
+	height: 100%;
+	background-color: #6095FA;
 }
