@@ -73,6 +73,10 @@ p {
 .nav-links li a:hover::before{
     width: 80%;
 }
+.active{
+  background-color: #ffffff;
+  color: white;
+}
 .header {
 	text-align: center;
 	background-color: #FFC831;
@@ -145,4 +149,22 @@ p {
 .container.c2010 {
 	padding-top: 2em;
 	padding-bottom: 2em;
+}
+
+input[type="submit"] {
+    width: 40%;
+    background-color: #ffffff;
+}
+
+.center {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+table.form-date {
+	width: 100%;
+}
+
+td {
+	margin-bottom: 1em;
 }
