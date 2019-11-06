@@ -1,0 +1,148 @@
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #FFC831;
+}
+footer {
+	height: 30em;
+	background-color: #FFC831;
+}
+nav{
+    height: 6rem;
+    width: 100vw;
+    background-color: #3d3d3b;
+    display: flex;
+    z-index: 10;
+}
+
+h1 {
+	color: #3d3d3b;
+}
+
+h2 { 
+	font-size: 34px;
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 2em;
+	width: 100%;
+	background-color: #FFC831;
+}
+
+p {
+	color: #3d3d3b;
+	font-size: 18px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-links{
+    display: flex;
+    list-style: none; 
+    width: 100%;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 1vw;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.nav-links li {
+    position: relative;
+}
+.nav-links li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #ffffff;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+.nav-links li a:hover::before{
+    width: 80%;
+}
+.header {
+	text-align: center;
+	background-color: #FFC831;
+	color: #ffffff;
+	height: 100px;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.title-presentation {
+	text-align: center;
+}
+.presentation {
+	text-align: center;
+	padding-right: 20%;
+	padding-left: 20%;
+
+}
+
+.part1 {
+	height: 100%;
+	background-color: ;
+}
+
+.part2 {
+	height: 100%;
+	background-color: ;
+}
+
+.part3 {	
+	height: 100%;
+	background-color: ;
+}
+
+.part4 {	
+	height: 100%;
+	background-color: ;
+}
+
+.part5 {	
+	height: 100%;
+	background-color: ;
+}
+
+.part6 {	
+	height: 100%;
+	background-color: ;
+}
+
+.container.c1970 {
+	padding-top: 7em;
+	padding-bottom: 2em;
+}
+
+.container.c1980 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.container.c1990 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.container.c2000 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.container.c2010 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
