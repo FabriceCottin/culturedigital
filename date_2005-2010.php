@@ -9,7 +9,7 @@
 <body>
 <?php
 try {
-	$bdd = new PDO('mysql:host=localhost;dbname=timeline;charset=utf8', 'root', '');	
+	$bdd = new PDO('mysql:host=sql25;dbname=stu75863;charset=utf8', 'stu75863', 'MoyaFabou080818!');	
 }
 catch(Exception $e)
 {

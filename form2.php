@@ -1,6 +1,6 @@
 <?php
 try {
-	$bdd = new PDO('mysql:host=sql25;dbname=stu75863;charset=utf8', 'stu75863', '0xxUS0q0LGy');		
+	$bdd = new PDO('mysql:host=sql25;dbname=stu75863;charset=utf8', 'stu75863', 'MoyaFabou080818!');	
 }
 catch(Exception $e)
 {
