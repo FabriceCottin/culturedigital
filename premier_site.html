@@ -13,6 +13,7 @@
 
 <nav id="navbar">
 	<ul class="nav-links">
+		<li class="nav-bar"><a href="index.html">Second Site</a></li>
 		<li class="nav-bar"><a href="#1970">1970 / 1980</a></li>
 		<li class="nav-bar"><a href="#1980">1981 / 1990</a></li>
 		<li class="nav-bar"><a href="#1990"> 1991 / 2000</a></li>
@@ -20,20 +21,6 @@
 		<li class="nav-bar"><a href="#2010">2011 / 2020</a></li>
 	</ul>
 </nav>
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 
 <div class="container-presentation">
 	<h2 class="title-presentation">Présentation d'une Time Line sur le web de 1970 à nos jours</h2>
@@ -160,6 +147,22 @@ Carrot cake jelly beans gummies pie chupa chups. Bear claw sugar plum oat cake c
 
 	</div>
 	
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+</script>
 
 </body>
 <footer>
